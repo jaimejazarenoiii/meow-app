@@ -14,6 +14,8 @@
 		B39E22DC1FE6313C0008E4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39E22DA1FE6313C0008E4FC /* LaunchScreen.storyboard */; };
 		B39E22E71FE6313D0008E4FC /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E22E61FE6313D0008E4FC /* MyFirstAppTests.swift */; };
 		B39E22F21FE6313E0008E4FC /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E22F11FE6313E0008E4FC /* MyFirstAppUITests.swift */; };
+		B39E23021FE66F7E0008E4FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39E23011FE66F7E0008E4FC /* AVFoundation.framework */; };
+		B39E23031FE672450008E4FC /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B39E22FF1FE667770008E4FC /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B39E22ED1FE6313E0008E4FC /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39E22F11FE6313E0008E4FC /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		B39E22F31FE6313E0008E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39E22FF1FE667770008E4FC /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		B39E23011FE66F7E0008E4FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39E23021FE66F7E0008E4FC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				B39E22E51FE6313D0008E4FC /* MyFirstAppTests */,
 				B39E22F01FE6313E0008E4FC /* MyFirstAppUITests */,
 				B39E22CF1FE6313C0008E4FC /* Products */,
+				B39E23001FE66F7E0008E4FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				B39E22D81FE6313C0008E4FC /* Assets.xcassets */,
 				B39E22DA1FE6313C0008E4FC /* LaunchScreen.storyboard */,
 				B39E22DD1FE6313C0008E4FC /* Info.plist */,
+				B39E22FF1FE667770008E4FC /* Cat.wav */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				B39E22F31FE6313E0008E4FC /* Info.plist */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		B39E23001FE66F7E0008E4FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39E23011FE66F7E0008E4FC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39E23031FE672450008E4FC /* Cat.wav in Resources */,
 				B39E22DC1FE6313C0008E4FC /* LaunchScreen.storyboard in Resources */,
 				B39E22D91FE6313C0008E4FC /* Assets.xcassets in Resources */,
 				B39E22D71FE6313C0008E4FC /* Main.storyboard in Resources */,
